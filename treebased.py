@@ -110,4 +110,4 @@ with pd.ExcelWriter(output_file) as writer:
 
 print("-" * 30)
 print(f"การจูนเสร็จสมบูรณ์! ผลลัพธ์ถูกบันทึกที่: {output_file}")
-print(metrics_df[['Model', 'MAE', 'RMSE', 'R2']])
+print(metrics_df[['Model', 'MAE', 'RMAE', 'MSE', 'RMSE', 'R2']])
